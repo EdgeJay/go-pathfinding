@@ -188,6 +188,7 @@ When generating or modifying code, **follow this loop**:
 6. **Run & fix**: `go test ./... -race`, lint, and benchmark.  
 7. **Update README** if usage or setup changed.  
 8. **Mark tasks done** in `docs/TASKS.md` and reference commits/PRs.
+9. **Coaching mode** → if received instructions to explain "step-by-step", always pause when adding/modifying code to provide a brief rationale for design choices, trade-offs, and testing strategies and wait for confirmation before proceeding.
 
 ---
 
