@@ -137,7 +137,7 @@ Ensure a **`README.md`** exists and stays current with `docs/PLANNING.md`.
 ````markdown
 # Project Name – Data Algorithms in Go
 
-> Scope & milestones per [docs/PLANNING.md](docs/PLANNING.md).
+> Scope & milestones per [../docs/PLANNING.md](../docs/PLANNING.md).
 
 ## Pre-requisites
 - Go >= 1.xx
@@ -166,7 +166,7 @@ go build ./cmd/app
 ## Architecture
 
 * Packages: `algo/`, `cmd/app/`, `internal/...`
-* See [docs/PLANNING.md](docs/PLANNING.md) for roadmap.
+* See [../docs/PLANNING.md](../docs/PLANNING.md) for roadmap.
 
 ## License
 
