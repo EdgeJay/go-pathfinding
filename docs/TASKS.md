@@ -6,13 +6,13 @@
 - [x] Design data model for grid-based pathfinding (ref: docs/PLANNING.md §M1)
 - [x] Implement Node and Grid structures in package `algo`
 - [x] Create priority queue implementation for A* open set
-- [ ] Implement basic A* algorithm v1 in `algo/astar.go`
+- [x] Implement basic A* algorithm v1 in `algo/astar.go`
 - [x] Add Manhattan, Euclidean, and Diagonal heuristic functions
-- [ ] Create comprehensive unit tests for edge cases (empty grid, no path, obstacles)
-- [ ] Add benchmarks for small/medium/large grids
+- [x] Create comprehensive unit tests for edge cases (empty grid, no path, obstacles)
+- [x] Add benchmarks for small/medium/large grids
 - [x] Document public API functions in `algo` package (GoDoc style)
 - [x] Achieve ≥90% test coverage for core algorithm (currently 98.2%)
-- [ ] Update README with basic usage example
+- [x] Update README with basic usage example
 
 ## Milestone: M2 – Enhanced Features & Optimization
 - [ ] Support 4-way and 8-way movement patterns
