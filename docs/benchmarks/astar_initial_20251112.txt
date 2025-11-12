@@ -1,0 +1,15 @@
+goos: linux
+goarch: amd64
+pkg: github.com/edgejay/go-pathfinding/algo
+cpu: Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz
+BenchmarkAStar_SmallGrid-16           	    5012	    221964 ns/op	   69868 B/op	     432 allocs/op
+BenchmarkAStar_MediumGrid-16          	     423	   2411788 ns/op	  471987 B/op	    2059 allocs/op
+BenchmarkAStar_LargeGrid-16           	     141	   8081353 ns/op	  958693 B/op	    4087 allocs/op
+BenchmarkAStar_WithObstacles-16       	     856	   1243727 ns/op	  231647 B/op	    1612 allocs/op
+BenchmarkAStar_Manhattan-16           	    1225	    929042 ns/op	  248737 B/op	    1244 allocs/op
+BenchmarkAStar_Euclidean-16           	      12	  88522450 ns/op	12830267 B/op	   89969 allocs/op
+BenchmarkAStar_Diagonal-16            	      24	  49561375 ns/op	 6080979 B/op	   37450 allocs/op
+BenchmarkAStar_ShortPath-16           	   18564	     67673 ns/op	   14504 B/op	      86 allocs/op
+BenchmarkAStar_MemoryAllocation-16    	    2241	    500317 ns/op	  141229 B/op	     837 allocs/op
+PASS
+ok  	github.com/edgejay/go-pathfinding/algo	12.672s
